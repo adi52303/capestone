@@ -1,0 +1,18 @@
+{
+  "23": {
+    "description": "Telnet service exposed. Insecure for IoT devices.",
+    "severity": "High"
+  },
+  "80": {
+    "description": "HTTP service without TLS. Possible weak firmware exposure.",
+    "severity": "Medium"
+  },
+  "443": {
+    "description": "HTTPS enabled. Check for weak TLS/SSL configurations.",
+    "severity": "Low"
+  },
+  "554": {
+    "description": "RTSP stream open. Many IP cameras allow unauthenticated access.",
+    "severity": "Critical"
+  }
+}

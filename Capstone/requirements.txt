@@ -1,0 +1,6 @@
+python-whois
+dnspython
+requests
+pandas
+numpy
+joblib
